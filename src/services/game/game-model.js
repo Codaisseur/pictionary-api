@@ -35,7 +35,7 @@ const lineSchema = new Schema({
 const gameSchema = new Schema({
   startedBy: { type: Schema.Types.ObjectId, ref: 'user' },
   teams: [teamSchema],
-  turn: [turnSchema],
+  turns: [turnSchema],
 
   word: { type: String, required: true, 'default': 'React' },
   lastGuess: { type: String },
