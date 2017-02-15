@@ -1,0 +1,12 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "mongodb": "mongodb://localhost:27017/pictionaryApi",
+  "public": "../public/",
+  "auth": {
+    "token": {
+      "secret": "FOVTu2P5mQtJslpEy6norgxfI2csSSbg2FZ2u9pzlKrykDKOGLxPVzDhpv23ZNLzjxymnL7LQkzmH2LIOAEDug=="
+    },
+    "local": {}
+  }
+}
